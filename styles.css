@@ -1,0 +1,82 @@
+#logo{
+    height: 250px;
+    width: 250px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header, footer{
+    background-color: rgba(197, 210, 212, 0.904);
+}
+body , nav{
+    background-color:rgba(241, 227, 238, 0.904) ;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 5px;
+    border-style: solid;
+    border-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.sobre_nos, .empadao , .tortas, .bebidas{
+    margin: 0 20% 100px 16%;
+    background-color: bisque;
+}
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.item_1, .item_3{
+    float: inline-start;
+}
+ #chocolate, #frutas_vermelhas{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    float: left;
+    border-style: solid;
+    border-color: black;
+}
+#frutas_amarelas{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    float: right;
+    border-style: solid;
+    border-color: black; 
+}
+.item_2{
+    float: inline-end;
+}
+#requeijao , #palmito, #banoffe, #cereja{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+}
+.empadao_de_requeijao, .empadao_de_palmito, .banoffe, .cereja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
