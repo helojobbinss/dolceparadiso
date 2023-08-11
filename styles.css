@@ -21,6 +21,7 @@ body , nav{
     border-top: 5px;
     border-style: solid;
     border-color: black;
+    margin-top: 50px;
 }
 .container{
     display: flex;
